@@ -1,10 +1,5 @@
 #!/usr/bin/env bash
 
-sudo mount -o remount,rw /
-apt-get install uuid-dev
-apt-get install libcurl4-openssl-dev
-
-
 if [ -f bin/pre_compile ]; then
   echo "-----> Running pre-compile hook"
   chmod +x bin/pre_compile

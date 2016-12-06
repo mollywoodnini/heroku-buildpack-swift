@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+sudo mount -o remount,rw /
 apt-get install uuid-dev
 apt-get install libcurl4-openssl-dev
 
